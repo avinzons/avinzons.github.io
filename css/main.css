@@ -1,0 +1,243 @@
+:root{
+  --page-background-color: #CBE4DF;
+  --page-background: #fafafa;
+  --box-background: #fff;
+  --decor-tertiary-text: #b3c2bf;
+  --color-pop: #A3E7FC;
+  --primary-text: #3b3a3e;
+  --primary-hover: #000;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  height: 5vh;
+}
+
+.header a{
+  font-family: 'Playfair Display', serif;
+  margin: 0 auto;
+  color: var(--decor-tertiary-text);
+  font-size: 20pt;
+  text-decoration: none;
+  padding:0;
+}
+
+.header a:hover{
+  color: var(--primary-hover);
+  transition: 1s;
+}
+
+.header-secondary{
+  background-color: var(--page-background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  height: 5vh;
+}
+
+.header-secondary a{
+  font-family: 'Playfair Display', serif;
+  margin: 0 auto;
+  color: var(--page-background);
+  font-size: 20pt;
+  text-decoration: none;
+}
+
+.header-secondary a:hover{
+  color: var(--box-background);
+  transition: 1s;
+}
+
+#home{
+  background-color: var(--page-background-color);
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#home ul{
+  list-style-type: none;
+}
+
+#home li{
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+#home a{
+	color: var(--primary-text);
+	text-decoration: none;
+	transition: .3s;
+}
+
+.container{
+  background-color: var(--page-background);
+  padding-top: 1%;
+  display:block;
+  width: 100%;
+  margin-left: 0 auto;
+  margin-right:0 auto;
+}
+
+.container h2{
+  font-weight: none;
+  text-align: center;
+  }
+.container a{
+  text-decoration: none;
+  color: var(--primary-text);
+}
+
+.box{
+  display: block;
+  text-align: center;
+  background-color: var(--box-background);
+  width: 50%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px;
+  border-color: var(--decor-tertiary-text);
+}
+.box h3, p{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.canvas{
+  display: block;
+  background-color: var(--box-background);
+  width: 80%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.canvas table{
+  width: 100%;
+}
+.canvas img{
+  width: 80%;
+  padding: 5%;
+}
+
+.phone_artboard{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.web_artboard{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.phone_artboard img{
+  width:30%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.web_artboard img{
+  width:85%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.box h3:hover p:hover{
+  opacity: 400%;
+}
+
+.box a a.visited {
+  text-decoration: none;
+  color: var(--primary-text);
+}
+
+.side_nav{
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  position: relative;
+  padding-left:10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 5%;
+
+  background-color: var(--decor-tertiary-text);
+}
+
+.side_nav ul{
+  list-style-type: none;
+}
+
+.side_nav li{
+  float: left;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.side_nav li a{
+  display: block;
+  text-decoration: none;
+  color:inherit;
+}
+
+li:hover{
+  background-color: var(--color-pop);
+}
+
+.form-box{
+  padding-left: 10%;
+
+}
+
+.contact{
+  display: inline-block;;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.contact a{
+  text-decoration: none;
+  color: var(--primary-text);
+}
+.contact h4{
+  margin-top: 2%;
+  margin-bottom: 0;
+  color: var(--primary-text);
+
+}
+.contact table{
+  margin: 0 auto;
+}
+
+
+h1, h2, h3, h4, h5{
+  font-family: 'Playfair Display', serif;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  background-color: var(--page-background);
+  color: var(--primary-text);
+}

@@ -1,0 +1,35 @@
+Project 1 "Promote Something" Plan
+-4 to 5 page website
+-p1 folder in 2300 server
+-main page is index.html or index.php
+-must validate
+-at least 3 images (credits in html)
+-PHP
+  1. PHP Variable (hella)
+  2. Array (side nav)
+  3. Loop (side nav)
+  4. Conditional Clause //if statement?
+  5. user defined function that accepts input and displays output
+  6. 3 unique types of input: text, text area, email //email is a dif input type?
+-check on multiple browsers
+-2 paragraph design rationale (200 words)
+  1. audience, design decisions
+  2. PHP elements
+  -include a WOW element (impressive styling, regular expressions, JS or jQuerry, lots of PHP, responsiveness)
+-rationale.pdf on CMS and p1 folder
+-
+
+Colors:
+$page_background_color = CBE4DF
+$page_background = e9ece5
+$box_background = fff
+$decor_tertiary_text = b3c2bf
+$color_pop = A3E7FC
+$primary_Text = 3b3a34
+
+
+
+Design Rationale:
+  This website is an online medium through which I've presented myself and my work. It's primary audience is prospective employers and professional connections who are interested in evaluating my work and expertise to evaluate my candidacy for a particular employment position. The secondary audience would be friends and/or family who are interested in the work that I've done and may also be a part of my professional network. I unfortunately cannot pinpoint an exact job title and job description that I am looking for; I know my vague and general interests, but my raget employers are amongst a wide range of fields, from advertising to the tech industry to performance to business. I've categorized my experience into 4 separate subjects, hoping that an employer in a specific field will easily be able to find information that is relevant to a certain prospective job. However, the home page treats all four categories with more or less the same importance, and protrays that I am all of these titles: a creative, a techie, a performer, and a student. (Student, being also my miscilaneous category). by this, I showcase myself as a truly well rounded person, which is true to myself and true to my beliefs. I've titled the cateogories as descriptive nouns, meaning I can say "I am" a creative or a techie. I've chosen this content because I want the audience to see how I define myself. Across the pages for each category, I've given titles to the work/experience I've done, as well as used images to showcase and summarize, because visuals tend to be more engaging then long text.
+
+  PHP elements

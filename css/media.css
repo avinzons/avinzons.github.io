@@ -1,0 +1,45 @@
+/* if less than 480px */
+@media (max-width: 480px) {
+  .header {
+    height: 25%
+  }
+  .header a {
+    font-size:120%;
+  }
+  .header-secondary{
+    height: 20%;
+  }
+  #home a{
+    font-size: 120%;
+  }
+
+  .box img {
+    width: 85%;
+  }
+
+  h1, h2, h3, h4, h5{
+    font-size: 120%;
+  }
+
+  body{
+    font-size: 120%;
+  }
+
+}
+/* between 481 and 768 */
+@media screen (min-width: 481px) and (max-width: 768px) {
+  #side_bar{
+    display:none;
+  }
+
+  #top-content > img {
+    min-width:481px;
+    max-width: 768px;
+  }
+
+  #content{
+    width: 90%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+}
