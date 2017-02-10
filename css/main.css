@@ -80,6 +80,10 @@
 	transition: .3s;
 }
 
+#home a:hover{
+  color: #000;
+}
+
 .container{
   background-color: var(--page-background);
   padding-top: 1%;
@@ -195,10 +199,6 @@
   display: block;
   text-decoration: none;
   color:inherit;
-}
-
-li:hover{
-  background-color: var(--color-pop);
 }
 
 .form-box{
