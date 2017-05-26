@@ -1,0 +1,12 @@
+<svg width="40" height="3" viewBox="0 0 40 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Line 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1742 -64)">
+<g id="Line 2">
+<use xlink:href="#path0_stroke" transform="translate(1742 66.3646)" fill="#282828"/>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 0L 40 0L 40 -2L 0 -2L 0 0Z"/>
+</defs>
+</svg>
