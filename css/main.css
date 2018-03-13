@@ -43,7 +43,7 @@
   margin: 10px auto;
 }
 
-#home-body ul{
+.page ul{
   color: #282828;
   text-decoration: none;
   list-style: none;
@@ -135,19 +135,25 @@ a.svg:after {
   display: inline;
 }
 
-.contact-text{
+/*.contact-text{
   background-color: #fafafa;
   padding:40 20;
   margin: 0 auto;
   border-bottom: 1px solid #000;
-}
+}*/
 
 #contact{
 }
 
-.page-contact a{
-/*  margin: 0 20px;
-*/}
+.social a{
+  padding: 0 2px 0 2px;
+  margin: 0 2px 0 2px;
+  text-decoration: underline;
+}
+
+.social a:hover{
+  font-style: italic;
+}
 
 }
 
@@ -281,6 +287,7 @@ a.svg:after {
 #multi-line{
   margin-bottom:10px;
 }
+
 .page-subtitle{
   margin: 40px 0 10px 0;
   font-size:20px;
@@ -314,10 +321,6 @@ a.svg:after {
 
 .page-body a{
   font-style: italic;
-}
-
-.page-body a:hover{
-  border-bottom: 1px solid #4d4d4d;
 }
 
 .footer{
