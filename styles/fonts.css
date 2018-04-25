@@ -1,0 +1,19 @@
+@font-face{
+  font-family: Lovelo-Black;
+  src: url(Lovelo-Black.otf);
+}
+/*
+Lovelo free font is remake of the original Lovelo Inline – designed by Renzler Design, Vienna, Austria. http://www.renzler.net/.
+Fontfabric reworked and created a family out of original design. http://www.fontfabric.com/lovelo-font/
+lisenced for personal and commercial use under EULA*/
+
+@font-face{
+  font-family: Circular-Medium;
+  src: url(circular-medium.otf);
+}
+/*Lineto: Circular Std-Medium: 2013
+Circular is a trademark of Lineto
+Free for Personal Use
+http://font2s.com/fonts/50880/circular_std_medium.html#.WuCTZ9PwbOQ*/
+
+/*Playfair Display imported via google fonts*/
