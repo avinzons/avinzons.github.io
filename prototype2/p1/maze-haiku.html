@@ -1,9 +1,26 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Solve the Maze</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Playfair+Display" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!--<script src="js/typed.js"></script>-->
+</head>
+<body>
+  <div class="viewscreen-post">
+    <div class="page">
+      <div class="page-body">
+        <h1 class="page-title">Solve the maze!</h1>
+        <p class="instructions">Now that you've written a haiku, navigate the following maze by clicking left or right. You might see some familiar words along the way.
+        </p>
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="374px" height="146px" viewBox="0 0 374 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
     <title>Group</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
+        <text x="0" y="70" class="maze-word" id="left">communicate</text>
+    <text x="280" y="70" class="maze-word" id="right">column</text>
     <g id="4400-proj-2-haiku" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
         <g id="Artboard" transform="translate(-1.000000, -161.000000)" stroke="#979797">
             <g id="Group" transform="translate(1.000000, 161.000000)">
@@ -31,3 +48,13 @@
         </g>
     </g>
 </svg>
+<p>Left or Right?</p>
+        <form action="maze-haiku2.html">
+          <input class="maze-step" type="submit" value="Left"/>
+          <input class="maze-step" type="submit" value="Right"/>
+        </form>
+      </div> <!--end of page-body class-->
+    <div> <!--end of page div-->
+  </div> <!--end of viewscreen-post div-->
+</body>
+</html>
