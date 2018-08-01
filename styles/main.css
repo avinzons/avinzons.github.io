@@ -50,7 +50,7 @@
 
 @font-face {
     font-family: 'circular-bold';
-    src: url('fonts/CircularStd-Bold.woff.woff') format('woff');
+    src: url('fonts/CircularStd-Bold.woff') format('woff');
     /*src: url('fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
          url('fonts/CircularStd-Bold.woff2') format('woff2'),
          url('fonts/CircularStd-Bold.woff') format('woff'),
@@ -162,12 +162,17 @@
   margin: 10px auto;
 }
 
-.page ul{
+/*.page ul{
   color: #282828;
   text-decoration: none;
   font-family: Circular-Book;
   margin: 0 auto;
   padding: 0;
+}*/
+
+.no-bullets{
+  list-style: none;
+  padding-left: 10px;
 }
 
 .social li ul{
@@ -251,13 +256,20 @@ a.svg:after {
 }
 
 /* projects */
+.my_name{
+  font-style: bold;
+  font-family: "circular-bold", Helvetica, Sans-serif;  
+}
+
 .proj_title{
-  font-family: "Circular-Medium", Helvetica, Sans-serif;
+  font-style: bold;
+  font-family: "circular-bold", Helvetica, Sans-serif;
   margin: 12px 0 3px 0;
 }
 
-.proj_list p{
-  margin: 0;
+.proj_title a{
+  font-style: normal;
+  font-family: "circular-book", Helvetica, Sans-serif;
 }
 
 .company{
@@ -267,11 +279,13 @@ a.svg:after {
 
 .author{
   font-style: normal;
+  margin: 0;
 }
 
 .research_desc{
   width: 70%;
   color: #777777;
+  margin: 0;
 }
 
 
