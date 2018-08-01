@@ -1,3 +1,23 @@
+/*Element Specifics*/
+
+.element{
+  margin: 20px auto 100px auto;
+}
+
+.elem-subtitle{
+  margin: 40px 0 10px 0;
+  font-size:20px;
+  width: 50%;
+}
+
+.elem-body{
+  width: 70%;
+}
+
+/*.element a{
+  font-style: italic;
+}*/
+
 /*Home page specfics*/
 .home-title{
   font-size: 24px;
@@ -116,25 +136,6 @@ a.svg:after {
   left:0;
 }
 
-/*Element Specifics*/
-.element{
-  margin: 20px auto 100px auto;
-}
-
-.elem-subtitle{
-  margin: 40px 0 10px 0;
-  font-size:20px;
-  width: 50%;
-}
-
-.elem-body{
-  width: 70%;
-}
-
-/*.element a{
-  font-style: italic;
-}*/
-
 /*Contact Page specifics*/
 .page-contact{
   margin: 50 auto;
@@ -151,17 +152,25 @@ a.svg:after {
 #contact{
 }
 
-/* research projects */
+/* projects */
+.proj_title{
+  margin: 12px 0 3px 0;
+}
+
+.proj_list p{
+  margin: 0;
+}
+
+.company{
+  font-style: italic;
+}
+
 .author{
-  font-size:12px;
-  font-weight: 100;
   font-style: normal;
 }
 
-.reserch_desc{
+.research_desc{
   width: 70%;
-  font-size:12px;
-  font-weight: 100;
   color: #777777;
 }
 
@@ -370,6 +379,7 @@ a.svg:after {
 .footer a:hover{
   border-color: #fafafa;
 }
+
 
 a{
   text-decoration: none;
