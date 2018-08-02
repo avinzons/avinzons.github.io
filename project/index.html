@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
+<style>
+  body {font-family: 'Roboto Condensed', sans-serif;}
+</style>
+<body bgcolor="#333333">
+  <h1 style="position:absolute; left:450px; "><font color="white">
+    Chasing <font color = "cyan">Storms</font>, Chasing <font color = "orange">Floods</font>
+  </font></h1>
+
+  <div id = 'window' style="margin: 0 auto;"></div>
+  <script src = "trend.js"></script>
+  <script src = "boxplot.js"></script>
+
+  <script>
+    // helper function
+    function translate(x,y){return "translate(" +x+ "," +y+")";}
+
+    // base svg
+    var g = d3.select('#window').append('g');
+    var svg = g.append('svg')
+    .attr('height',800)
+    .attr('width',1500)
+    .style('background-color', '#333333');
+
+    // left column
+    var trend = svg.append('g')
+    .attr('id', 'trend')
+    .attr('transform', translate(80,85));
+
+    // right column
+    var trend2 = svg.append('g')
+    .attr('id', 'trend')
+    .attr('transform', translate(720, 85));
+
+    // draw timeseries of storm
+    d3.csv("storm_trend.csv", function(error, data){
+      var src = data;
+      var ex = [0, 25];
+      draw_trend(trend, src, ex, 450, 80, true, "cyan");
+    });
+
+    // draw timeseries of flood
+    d3.csv("flood_trend.csv", function(error, data){
+      var src2 = data;
+      console.log(d3.extent(src2, d=>Number(d.Killed)))
+      var ex = [0, 25];
+      draw_trend(trend, src2, ex, 450, 80, false, "orange");
+    });
+
+    // draw boxplot of
+    d3.csv("storm_src.csv", function(error, data){
+      var src3 = data;
+      var ex = [101, 3700000];
+      var dy = 0;
+      draw_box(trend2, src3, ex, dy, true, 450, 80, "cyan");
+    });
+
+    d3.csv("flood_src.csv", function(error, data){
+      var src3 = data;
+      var ex = [101, 3700000];
+      var dy = 37;
+      draw_box(trend2, src3, ex, dy, false, 450, 80, "orange");
+    });
+
+  </script>
+</body>
+</html>
