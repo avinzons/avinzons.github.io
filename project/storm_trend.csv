@@ -1,0 +1,73 @@
+,Country,Month_start,Killed,Name,Killed_log
+0,India,1,0.0,0.0,0.0
+1,India,2,0.0,0.0,0.0
+2,India,3,1.0,0.0,1.0
+3,India,4,4.0,0.0,4.0
+4,India,5,6.0,2.0,6.0
+5,India,6,5.0,2.0,5.0
+6,India,7,1.0,0.0,1.0
+7,India,8,3.0,0.0,3.0
+8,India,9,5.0,0.0,5.0
+9,India,10,8.0,1.0,8.0
+10,India,11,15.0,2.0,15.0
+11,India,12,3.0,0.0,3.0
+12,United States,1,6.0,0.0,6.0
+13,United States,2,2.0,0.0,2.0
+14,United States,3,5.0,0.0,5.0
+15,United States,4,5.0,0.0,5.0
+16,United States,5,3.0,0.0,3.0
+17,United States,6,5.0,2.0,5.0
+18,United States,7,0.0,0.0,0.0
+19,United States,8,4.0,3.0,4.0
+20,United States,9,7.0,1.0,7.0
+21,United States,10,0.0,0.0,0.0
+22,United States,11,1.0,0.0,1.0
+23,United States,12,1.0,0.0,1.0
+24,Japan,1,0.0,0.0,0.0
+25,Japan,2,1.0,0.0,1.0
+26,Japan,3,0.0,0.0,0.0
+27,Japan,4,0.0,0.0,0.0
+28,Japan,5,2.0,0.0,2.0
+29,Japan,6,1.0,1.0,1.0
+30,Japan,7,3.0,1.0,3.0
+31,Japan,8,3.0,0.0,3.0
+32,Japan,9,18.0,8.0,18.0
+33,Japan,10,2.0,2.0,2.0
+34,Japan,11,1.0,0.0,1.0
+35,Japan,12,1.0,0.0,1.0
+36,Bangladesh,1,0.0,0.0,0.0
+37,Bangladesh,2,0.0,0.0,0.0
+38,Bangladesh,3,3.0,0.0,3.0
+39,Bangladesh,4,11.0,1.0,11.0
+40,Bangladesh,5,12.0,1.0,12.0
+41,Bangladesh,6,2.0,0.0,2.0
+42,Bangladesh,7,0.0,0.0,0.0
+43,Bangladesh,8,1.0,0.0,1.0
+44,Bangladesh,9,2.0,1.0,2.0
+45,Bangladesh,10,10.0,1.0,10.0
+46,Bangladesh,11,5.0,3.0,5.0
+47,Bangladesh,12,4.0,0.0,4.0
+48,Philippines,1,1.0,1.0,1.0
+49,Philippines,2,0.0,0.0,0.0
+50,Philippines,3,2.0,2.0,2.0
+51,Philippines,4,2.0,1.0,2.0
+52,Philippines,5,2.0,2.0,2.0
+53,Philippines,6,4.0,4.0,4.0
+54,Philippines,7,4.0,3.0,4.0
+55,Philippines,8,3.0,2.0,3.0
+56,Philippines,9,6.0,5.0,6.0
+57,Philippines,10,13.0,12.0,13.0
+58,Philippines,11,18.0,16.0,18.0
+59,Philippines,12,5.0,4.0,5.0
+60,China P Rep,1,0.0,0.0,0.0
+61,China P Rep,2,0.0,0.0,0.0
+62,China P Rep,3,0.0,0.0,0.0
+63,China P Rep,4,4.0,0.0,4.0
+64,China P Rep,5,1.0,0.0,1.0
+65,China P Rep,6,3.0,1.0,3.0
+66,China P Rep,7,9.0,6.0,9.0
+67,China P Rep,8,16.0,12.0,16.0
+68,China P Rep,9,9.0,7.0,9.0
+69,China P Rep,10,0.0,0.0,0.0
+70,China P Rep,11,1.0,0.0,1.0
+71,China P Rep,12,0.0,0.0,0.0

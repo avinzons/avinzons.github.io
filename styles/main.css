@@ -1,3 +1,121 @@
+/*Font Import; woff files from http://www.cufonfonts.com/font/circular-std-book*/
+
+@font-face {
+    font-family: 'circular-book';
+    src: url('fonts/CircularStd-Book.woff') format('woff');
+    /*src: url('fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CircularStd-Book.woff2') format('woff2'),
+         url('fonts/CircularStd-Book.woff') format('woff'),
+         url('fonts/CircularStd-Book.ttf') format('truetype'),
+         url('fonts/CircularStd-Book.svg#CircularStd-BookItalic') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-book-italic';
+    src: url('fonts/CircularStd-BookItalic.woff') format('woff');
+    /*src: url('fonts/CircularStd-BookItalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CircularStd-BookItalic.woff2') format('woff2'),
+         url('fonts/CircularStd-BookItalic.woff') format('woff'),
+         url('fonts/CircularStd-BookItalic.ttf') format('truetype'),
+         url('fonts/CircularStd-BookItalic.svg#CircularStd-BookItalic') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-medium';
+    src: url('fonts/CircularStd-Medium.woff') format('woff');
+    /*src: url('fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CircularStd-Medium.woff2') format('woff2'),
+         url('fonts/CircularStd-Medium.woff') format('woff'),
+         url('fonts/CircularStd-Medium.ttf') format('truetype'),
+         url('fonts/CircularStd-Medium.svg#CircularStd-BookItalic') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-medium-italic';
+    src: url('fonts/CircularStd-MediumItalic.woff') format('woff');
+    /*src: url('fonts/CircularStd-MediumItalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CircularStd-MediumItalic.woff2') format('woff2'),
+         url('fonts/CircularStd-MediumItalic.woff') format('woff'),
+         url('fonts/CircularStd-MediumItalic.ttf') format('truetype'),
+         url('fonts/CircularStd-MediumItalic.svg#CircularStd-BookItalic') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-bold';
+    src: url('fonts/CircularStd-Bold.woff') format('woff');
+    /*src: url('fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CircularStd-Bold.woff2') format('woff2'),
+         url('fonts/CircularStd-Bold.woff') format('woff'),
+         url('fonts/CircularStd-Bold.ttf') format('truetype'),
+         url('fonts/CircularStd-Bold.svg#CircularStd-BookItalic') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-bold-italic';
+    src: url('fonts/CircularStd-BoldItalic.woff') format('woff');
+    /*src: url('fonts/CircularStd-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CircularStd-BoldItalic.woff2') format('woff2'),
+         url('fonts/CircularStd-BoldItalic.woff') format('woff'),
+         url('fonts/CircularStd-BoldItalic.ttf') format('truetype'),
+         url('fonts/CircularStd-BoldItalic.svg#CircularStd-BookItalic') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-black';
+    src: url('fonts/CircularStd-Black.woff') format('woff');
+    /*src: url('fonts/CircularStd-Black.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CircularStd-Black.woff2') format('woff2'),
+         url('fonts/CircularStd-Black.woff') format('woff'),
+         url('fonts/CircularStd-Black.ttf') format('truetype'),
+         url('fonts/CircularStd-Black.svg#CircularStd-BookItalic') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-black-italic';
+    src: url('fonts/CircularStd-BlackItalic.woff') format('woff');
+    /*src: url('fonts/CircularStd-Blacktalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CircularStd-BlackItalic.woff2') format('woff2'),
+         url('fonts/CircularStd-BlackItalic.woff') format('woff'),
+         url('fonts/CircularStd-BlackItalic.ttf') format('truetype'),
+         url('fonts/CircularStd-BlackItalic.svg#CircularStd-BookItalic') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Element Specifics*/
+
+.element{
+  margin: 20px auto 100px auto;
+}
+
+.elem-subtitle{
+  margin: 40px 0 10px 0;
+  font-size:20px;
+  width: 50%;
+}
+
+.elem-body{
+  width: 70%;
+}
+
+/*.element a{
+  font-style: italic;
+}*/
+
 /*Home page specfics*/
 .home-title{
   font-size: 24px;
@@ -10,7 +128,7 @@
   background-size: 80% 100%;
   margin-top: 40px;
   margin-bottom: 10px;
-  font-family: Lovelo-Black;
+  font-family: "cricular-black", Helvetica, Sans-serif;
 }
 
 
@@ -44,12 +162,17 @@
   margin: 10px auto;
 }
 
-.page ul{
+/*.page ul{
   color: #282828;
   text-decoration: none;
-  font-family: Circular-Medium;
+  font-family: Circular-Book;
   margin: 0 auto;
   padding: 0;
+}*/
+
+.no-bullets{
+  list-style: none;
+  padding-left: 10px;
 }
 
 .social li ul{
@@ -116,25 +239,6 @@ a.svg:after {
   left:0;
 }
 
-/*Element Specifics*/
-.element{
-  margin: 20px auto 100px auto;
-}
-
-.elem-subtitle{
-  margin: 40px 0 10px 0;
-  font-size:20px;
-  width: 50%;
-}
-
-.elem-body{
-  width: 50%;
-}
-
-/*.element a{
-  font-style: italic;
-}*/
-
 /*Contact Page specifics*/
 .page-contact{
   margin: 50 auto;
@@ -150,6 +254,40 @@ a.svg:after {
 
 #contact{
 }
+
+/* projects */
+.my_name{
+  font-style: bold;
+  font-family: "circular-bold", Helvetica, Sans-serif;  
+}
+
+.proj_title{
+  font-style: bold;
+  font-family: "circular-bold", Helvetica, Sans-serif;
+  margin: 12px 0 3px 0;
+}
+
+.proj_title a{
+  font-style: normal;
+  font-family: "circular-book", Helvetica, Sans-serif;
+}
+
+.company{
+  font-style: italic;
+  font-family: "circular-book-italic", Helvetica, Sans-serif;
+}
+
+.author{
+  font-style: normal;
+  margin: 0;
+}
+
+.research_desc{
+  width: 70%;
+  color: #777777;
+  margin: 0;
+}
+
 
 
 /*Master CSS*/
@@ -209,8 +347,8 @@ a.svg:after {
   font-style:italic;
   font-weight: lighter;
   font-size: 100%;
-  font-family: Lovelo-Black;
-}
+  font-family: "circular-black", Helvetica, Sans-serif
+  }
 
 .nav-burger{
   float: right;
@@ -248,7 +386,7 @@ a.svg:after {
 
 .page-left{
   margin-top: 60px;
-  width: 40%;
+  width: 20%;
 /*  float: left;
 */  position:fixed!important;
   z-index:1;
@@ -258,7 +396,7 @@ a.svg:after {
 
 .page-right{
     margin-top: 60px;
-    margin-left:40%;
+    margin-left:35%;
     float: right;
     /*width: 100%;*/
 /*    display: inline-block;
@@ -275,7 +413,7 @@ a.svg:after {
   background-size: 100% 100%;
   margin-top: 0;
   margin-bottom: 40px;
-  font-family: Lovelo-Black;
+  font-family: "circular-black", Helvetica, Sans-serif;
 }
 
 #multi-line{
@@ -325,7 +463,7 @@ a.svg:after {
 }
 
 .left{
-  width: 40%;
+  width: 30%;
   margin-left: 5%;
   float: left;
   text-align: right;
@@ -356,10 +494,10 @@ a.svg:after {
   border-color: #fafafa;
 }
 
+
 a{
   text-decoration: none;
-  font-style: italic;
-  color: inherit;
+  color: #0A5588;
 }
 
 a:hover{
@@ -368,13 +506,12 @@ a:hover{
 
 
 h1 h2 h3 {
-  font-family: Lovelo-Black;
+  font-family: "circular-bold", Helvetica, Sans-serif;
 }
 body{
   margin: 0 auto;
-  font-family: Circular-Medium;
+  font-family: "circular-book", Helvetica, Sans-serif;
   color: #282828;
   background-color: #FAFAFA;
   font-size: 14px;
 }
-
