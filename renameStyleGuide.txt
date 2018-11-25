@@ -1,0 +1,5 @@
+Coding Style Guide
+
+# Classes
+- lower case
+- wrapped in " " (not ' ')

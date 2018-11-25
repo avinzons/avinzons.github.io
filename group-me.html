@@ -1,0 +1,147 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>a.v.</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900|Cutive+Mono|Playfair+Display|Frank+Ruhl+Libre" rel="stylesheet">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <link rel="stylesheet" href="style0.css">
+  <!--<script src="js/typed.js"></script>-->
+</head>
+<body>
+  <div class="viewscreen-post">
+      <div class="nav">
+        <div class="nav-logo">
+          <h1 id="logo">a.v.</h1>
+          <a href="index.html"><p class="menu-item">About</p></a>
+          <a href="work.html"><p class="menu-item">Work</p></a>
+        </div> <!-- end of logo div-->
+      </div> <!--end of nav div-->
+    <div class="page">
+      <div class='article-body'>
+        <h1 class="article-header">GroupMe Concept:<br>Finding Relevant Messages</h1>
+        <p class="img"><img src="images/groupMe-banner.gif"></p>
+        <p>It’s intuitive to “group” the people in my life: my dance team, my housemates, high school friends, and financial accounting project group. As we spend more time with these groups, friendships form and conversations turn from pure logistics to casual, friendly chats. While I sometimes enjoy seeing funny messages, gifs, ect., sometimes I feel they are a waste of time to read. On the other hand, when it comes time to inform the group of truly important messages, I want to make sure everyone doesn’t miss this message.</p>
+        <h2>Just send a DM?</h2>
+        <p>My personal paint point was that I received notifications for messages that were irrelevant to me, but I didn’t want to turn notifications off because I didn’t want to miss anything important. My original hypothesis was: If GroupMe allowed users to create “subgroups” within a group chat, then users would be able to see and read what is relevant and ignore what is not.</p>
+        <h1>Understanding the Problem</h1>
+        <h2>User Research</h2>
+        <p>Different GroupMe groups serve different functions and thus have different goals: some groups are more like friend groups, while others are dominantly logistical.<br>
+        Members may have different roles in groups, too: some are leaders, others are followers; some are very involved and others are just passive.</p>
+        <ol>
+          <li>Some users like to read messages that aren’t directed at them in order to “stay in the loop”; while others get frustrated for wasting their time.</li>
+          <li>Users who get overwhelmed by irrelevant messages will often resort to muting the chat. However, this frustrates the rest of the chat when important information is sent out via GroupMe</li>
+          <li>Users like to use the @mention feature to contact a subset of people in the group; they don’t mind other group members seeing this specific chat and they think creating a whole new chat is too much.</li>
+        </ol>
+        <h2>Market Research</h2>
+        <p>I analyzed two salient competitors in the group communication app market: Slack and Facebook Messenger.</p>
+        <img src="images/groupMe-marketResearch1.jpeg">
+        <img src="images/groupMe-marketResearch2.jpeg">
+        <ol>
+          <li>Slack- People disliked that Slack was bloated, too complicated, too formal, and is therefore not ideal for casual, friend group situations</li>
+          <li>Facebook Messenger- People complained of a lack of organizational structure for messages and no way to rate relevance or importance, which are problems that GroupMe has.</li>
+        </ol>
+        <h2>Defining the Problem</h2>
+        <p>When defining the problem space, I realized there are a multitude of factors to consider:</p>
+        <ol>
+          <li>A message’s relevance can be categorized as:<br>
+          A. relevant and important to all (ex. link to a Google drive everyone needs to access.)<br>
+          B. Not at all relevant (ex. coordinating rides to an event you are not attending)<br>
+          C. Not relevant, but good to know (ex. funny stories, ect.)</li>
+          <li>The problem of message “relevance” becomes more pertinent as the size of the group grows larger</li>
+          <li>There are two distinct sides to this problem. One is on the side of the user receiving irrelevant messages, and the other is on the side of the one sending the messages. My original hypothesis focused on the latter, but I decided to address the problem of the former.</li>
+        </ol>
+        <p><span class="article-emphasis">The Problem:</span> In large groups, people want to be able to find relevant/important information but they can’t because
+          <ol>
+            <li>scrolling past many irrelevant messages is tedious and time consuming</li>
+            <li>there is no organization to message content</li>
+          </ol>
+          <span class="article-emphasis">The Goal:</span> Design an organizational structure to chats within a GroupMe, so that messages with more importance and relevance to a certain user are highlighted within a group chat.</p>
+          <h2>Brainstorming a Solution</h2>
+          <p>During my brainstorming session with the-one-and-only <a href="https://medium.com/u/5158fb419488">Andrew Aquino</a>, we identified three feature spaces:
+            <ol>
+              <li>Consolidation (ex. collapsible messages by relevance/topic, “sub-groups”, deleting messages, expiring messages, editing messages)</li>
+              <li>Message Formatting (ex. message specific layout, font size, color; announcement header, star/pin messages)</li>
+              <li>Categorization (ex. search bar, search filters, tags, folders)</li>
+            </ol>
+            I decided to explore in depth: <span class="article-emphasis">sub-grouped messages</span> and a <span class="article-emphasis">banner 
+            for pinned messages</span>.</p>
+          <h1>Exploring the Solution</h1>
+          <h2>Firstly, Consolidation is not a solution.</h2>
+          <p>The first feature space exploration involves consolidating messages into sub-groups, much like my hypothesis. I’ll admit that I couldn’t quite let go of the idea of sub-groups at first. To me, Slack channels seemed like the perfect solution to the I-don’t-care-what’s-going-on-in-your-department problem.<br>I explored the idea of self-forming sub-chats that combined relevant messages. I considered forming the sub-chats based on a string of @mentions, an AI that would recognize relevant discussions, or reply-based chats.</p>
+          <img src="images/groupMe-explorations1.jpeg">
+          <p>This feature seemed promising at first. It provided a means of organization to the messages, while maintaining the structure and the feel of a group chat (ie. scrolling through a conversation). This was the first problem exactly: the ability to scroll. People don’t want to scroll, they just want to find what relevant information they are looking for. This leads to the second problem: relevance. Grouping certain messages together doesn’t separate what is relevant and important from what is not. A residual problem that arose from user testing was that users felt uncomfortable that GroupMe was grouping messages on its own.</p>
+          <p class="quote">“What if GroupMe grouped them wrong? I don’t want the app making this decision for me.”</p>
+          <p>And this just amplified the first two problems of scrolling and relevance:</p>
+          <p class="quote">“How do I know what these sub-groups are about at first glance? What if I scroll through a sub-group and then realize what I’m looking for isn’t there?”</p>
+          <p>I realized the sub-group feature only addresses the subset of the problem where in certain people are @mentioned in a large group chat, which is a narrow subset of the problem space I am dealing with. After analyzing my progress and development of this feature, I realized it doesn’t solve the problem well, and decided to scrap it.</p>
+          <h2>Banners for Immediacy, Pins for Importance</h2>
+          <h3>1. Pinned Message Banner</h3>
+          <h4>Interaction: How to close the banner?</h4>
+          <img src="images/groupMe-explorations2.jpeg">
+          <p class="quote">“Having an X there makes it seem like it can go away and never come back.”</p>
+          <p class="quote">“I like that I can close it… but I want the reminder again. I want it just to be there.”</p>
+          <p class="quote">“I can make the decision to ignore it if I need to.”</p>
+          <p>Some users find its’ presence obstructing to the view of the group chat and would want the ability to close the banner after reading it. Other users felt uncomfortable closing it because they want to be able to refer back to it, but they also want to read the group chat unobstructed. I decided to leave out the X and play with other means of closing, such as a swipe interaction. Users felt that this interaction was lighter, most likely because it is similar to push notifications in the sense that even if you swipe them away, you can still see what was being notified.</p>
+          <h4>Functionality: What shape of the banner is the most intuitive?</h4>
+          <img src="images/groupMe-explorations3.jpeg">
+          <p class="caption">Explorations of Banner Shape</p>
+          <p>I played with the idea of having a flag-shaped banner. This gave a more temporary feel to the banner; however, users thought it looked awkward. The flag shape does not really fit in GroupMe’s ecosystem, and the rectangle shape was intuitive enough for me to stick with it.</p>
+          <h4>Visual Design: How can a pin indicator/icon make the message look and feel important?</h4>
+          <img src="images/groupMe-explorations4.jpeg">
+          <p class="caption">Exploration of Pin Icon/Indicator</p>
+          <p>I first introduced the pin icon as a literal indication of my feature. However, users resisted the pin icon (B) because it doesn’t fit well in GroupMe’s ecosystem. However, A was too much like a regular group message and didn’t make the banner stand out against the group chat that much. After exploring the app further, I discovered that a blue dot appeared when a user was reading New Messages in a group chat, and decided to put that on the banner. Users responded well to the blue dot; even if they didn’t know it already existed in GroupMe, they liked it. It highlighted the pinned banner in a simple, subtle way, making the banner engaging but not obstructive.</p>
+          <h4>Interaction and Visual Design: Weight of Expanded Message View</h4>
+          <img src="images/groupMe-explorations5.jpeg">
+          <p class="caption">Explorations of Expanded Message View</p>
+          <p>I considered having a pop-out for the expanded view of the pinned message. This placed much more emphasis on reading the pinned message and gave the interaction much more weight. While some users liked viewing the message like this, others preferred the existing view, D. In the end, I decided on D because it seemed more fitting to GroupMe’s existing ecosystem, and it still placed emphasis on the individual message because it is the only thing on the screen.</p>
+          <h4>Banner Final Interaction</h4>
+          <p>The Pinned Banner Message feature fits well with GroupMe’s existing ecosystem. The blue dot, message detail view, and presence in the group menu tie this feature in nicely with the current GroupMe app. The interaction is light and intuitive enough, while the colored dot instills a sense of engagement.</p>
+          <img src="images/groupMe-finalInteraction.jpeg">
+          <h3>2. Collapsible Pin Message</h3>
+          <h4>Visual Design: Alignment of Title in Collapsible</h4>
+          <img src="images/groupMe-collapse1.jpeg">
+          <p class="caption">Explorations of Content Alignment</p>
+          <p>Some users missed the chevron on the far right in A, and while users liked both B and C, I thought centering the title text increased its rank on the information hierarchy, which was not necessary, so I ended up sticking with B.</p>
+          <h4>Content Strategy: Design to Meet the User’s Expectations</h4>
+          <img src="images/groupMe-collapse2.jpeg">
+          <p class="caption">Exploration of Content on Collapsible Banner</p>
+          <p>I decided that the collapsible should display only the most recently pinned message. However, I struggled to design a collapsible where the user expected only one message upon clicking it. I decided to explore different titles on the collapsible bar, and found that with D, more users had the correct expectation of the feature.</p>
+          <h4>Collapsible Final Interaction</h4>
+          <p>The collapsible pinned message provides an instantaneous, straightforward way to access the most recently pinned message, as well as all pinned messages. The blue dot is an intuitive indication of whether or not the most recent pin has been read by the user. While the collapsible bar is always present in the group chat, it is rather small so as to be not obstructing.</p>
+          <img src="images/groupMe-collapse3.jpeg">
+          <h1>Conclusion</h1>
+          <p>The features addresses the two causes of the problem that I emphasized: 1) the tedious nature of scrolling and 2) the lack of organization for message content. The pinned post at the top of the group chat immediately presents the important message to the user. The ability to pin a message, in effect organizes it as more important than other messages.</p>
+          <p>The ability to mark certain messages as “Pinned” which are easily accessible to all group members would ensure that group members are well aware of important, relevant information. The Banner and Collapsible implementations provide a rather light means of organizing content without obstructing the casual, friendly feel that GroupMe groups tend to have.</p>
+          <h2>Things to Consider Further</h2>
+          <ol>
+            <li>Who has the authority to pin messages?</li>
+            <li>Can pinned messages lose their pinned status? What happens when pinned message are no longer relevant/important?</li>
+            <li>Can pinned messages be editable, in the case that information needs to be added on?</li>
+          </ol>
+          <h1>Understanding GroupMe Visual Design</h1>
+          <p>To create believable high fidelity designs, I created a UI kit and feature specs.</p>
+          <img src="images/groupMe-UI.jpeg">
+          <img src="images/groupMe-existing.jpeg">
+          <img src="images/groupMe-specs.jpeg">
+          <p class="quote">This project is open source; files can be accessed via <a href="https://www.dropbox.com/sh/wpzbbcwrtzfqfcr/AAA31HlKe9cARcjwy_W6fIZGa?dl=0">DropBox</a>.</p>
+          <h1>What I Learned</h1>
+          <ol>
+            <li><p class="article-emphasis">Just because it’s a problem you have doesn’t mean its one everyone has:</p> I was rather frustrated interviewing users who didn’t share my pain points. But that doesn’t mean they don’t have problems, it just means they have different, some-what related problems. Multiple user perspectives are much more valuable than my own opinion.</li>
+            <li><p class="article-emphasis">The scramble for user research and testing:</p> On the same lines as the point before, my experience with GroupMe is not representative of all GroupMe users. I learned that I needed to go out of my way and find people for research and testing, if that meant walking across campus to test out an interaction and text/call my friends with urgency (ie. CAPITAL LETTERS).</li>
+            <li><p class="article-emphasis">Those deadlines won’t wait for you:</p> I’ll admit, I struggled a bit with meeting deadlines for this assignment, and I know that even for some of the deadlines that I did meet, I didn’t produce my best work. There’s a line between submitting really bad work and iterating on really good work so much that the deadline is long gone. I learned that there comes a point when I’m going to have to click the submit button, even if I feel that I could’ve done more art board explorations on sketch, or iterated more on some designs.</li>
+          </ol>
+          <h2>Looking Forward</h2>
+          <p>A lot of apps (and businesses) solve problems by pushing new features and products, but sometimes that just leads to more bloatware. It’s important to ask how GroupMe can better the experience of current users, and perhaps these solutions require simple, rather small changes.</p>
+
+          <p>GroupMe is a widely used platform, and because of this it has the potential to do well in the group chat app market. However, problems persist for users because groups serve different functions and users have different role within groups.</p>
+
+          <p>GroupMe users are spread rather thinly. And since GroupMe thrives on user activity, users with notifications turned off are of no benefit. A means of being notified about the right messages would increase engagement and better not just the productivity of the group chat, but also the harmony in communicating, and the dynamic of group interaction as a whole.</p>
+          <br>
+          <p>This case study is for CU App Dev’s Intro to Digital Product Design Course, and is in no way affiliated with GroupMe.</p>
+          <p>Originally published on <a href="https://medium.com/@alexisvinzons/groupme-concept-finding-relevant-messages-fc720c9a5c25">Medium</a> but also published here because a friend once told me, 'Own your content!'</p>
+       
+      </div><!--end of page-body class-->
+    <div> <!--end of page div-->
+  </div> <!--end of viewscreen-post div-->
+</body>
+</html>
