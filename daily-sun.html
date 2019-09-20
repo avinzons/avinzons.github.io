@@ -29,8 +29,71 @@
     <div class="page">
       <div class='article-body'>
         <h1 class="article-header">iOS app for<br>The Cornell Daily Sun</h1>
+        <p>(In progress)
         <p class="img"><img src="images/dailysun-coverphoto.jpg"></p>
-        <p> Full case study coming soon! In the meantime, check out the app <a href="https://itunes.apple.com/us/app/cornell-daily-sun/id1375063933?mt=8">on the app store!</a></p>
+        <p> Check out the app <a href="https://itunes.apple.com/us/app/cornell-daily-sun/id1375063933?mt=8">on the app store!</a></p>
+
+        <p>We’ve all heard of the importance of being an informed citizen: one who is an active citizen, who cultivates him or herself, who has opinions and fights for them- one who reads the news. But news nowadays isn’t what it used to be. I envy my grandmother’s routine: perched on the balcony of her downtown Honolulu apartment, with her morning cup of coffee in one hand and a print copy -yes, print- of The New York Times Daily in the other. Yet in the busy busy busy lives of young millennials, we need the news on every device in every medium all the time.</p>
+
+        <p><a href="https://cornellsun.com/"> The Cornell Daily Sun</a> is Cornell’s oldest and only independent, student-run newspaper. Reporting on events at Cornell, in Ithaca, or related to Cornellians, The Sun tends to be read by students, alumni, professors and staff, as well as student’s parents and prospective students. Current students are its largest user base, and while many of them prefer the look and feel of a printed newspaper, we anticipate that launching a mobile app would engage readers and non-readers more thoroughly and frequently.</p>
+
+        <h1>Our Users: Readers of The Sun & Cornell Students</h1>
+
+        <p>In my first round of interviews, I sought to understand the behaviors of the readers of The Sun. I asked them what platforms they used, how often they read, how they browse, and in what contexts/settings they read. My primary goal was to identify priority features: Main Feed, Section Feed, Search, Trending, Bookmarks, Notifications, Settings. I was also interested in what kinds of people tend to read and why. As both the app team and the members of The Sun editorial board hoped to gain more readers for The Sun, I also wanted to find out why people do not read The Sun and how an app might influence how people read.</p>
+
+        <p>In addition to contextual interviews, I sent out a google form to subscribers of The Sun and students at Cornell for their input.</p>
+
+        <h2>Some key findings:</h2>
+            <ol>
+            <li>A vast majority of readers access articles through shared posts on Facebook. And a majority of readers tend to read on their laptop over any other medium</li>
+            <li>50% of respondents read The Sun a few times a week, 21% daily, and 12% once a week. Most read 2–3 articles at a time.</li>
+            <li>Nearly everyone reads the front page/headline news, 60% of respondents read Local News and Opinion articles, and other sections attract 10–25% of those surveyed.</li>
+            <li>People do not read The Sun because they do not have time, are not interested in the articles, or because the newspaper is not readily available to them.</li>
+          </ol>
+
+        <p>While not all of these translate into direct design decisions, they are important when designing with the user in mind.</p>
+
+        <p>I was tasked with exploring and designing two key features: Search and Navigation.</p>
+        <h1>Feature 1: Search</h1>
+
+        <p>My goal was to explore two aspects of the Search feature:</p>
+            <ol>
+            <li>What you see on the Search Tab Bar.</li>
+            <li>How Search Results are displayed.</li>
+          </ol>
+        <h2>Inspirations</h2>
+        <img class="from-medium" src="images/dailysun-searchInspo.png">
+        <p>As with other feature inspirations thus far, I looked to both news apps and social media apps for inspiration. After compiling 15 or so screens, I noticed a trend among Search Screens and categorized them:</p>
+          <ul>
+            <li>Blank Search — no content, just search bar</li>
+            <li>List of Trending Topics — centered list of 8–10 topics</li>
+            <li>“More Interesting Lists” — a list, like above, with a little more to it, such as images and short descriptions</li>
+            <l>“Multi-layout Lists” — these had more than one kind of content on the search page. For example, Instagram has a list of users’ stories as well as a mosaic of user posts, and Bloomberg has colored cards for different sections as well as a list of trending topics.</li>
+            </ul>
+        <p>I noticed that there was a significant difference in what kind of apps used the difference categories of Search Screens: News apps tended to use Blank Search or Trending while social media apps used “More Interesting Lists” and “Multi-layout Lists.” I reasoned that this was because:</p>
+          <ol>
+            <li>searching on Social Media apps often meant expanding outside one’s social circle- this is why Instagram calls their search section “Explore”, separating subscribed from unsubscribed content.</li>
+            <li>The content of social media apps like Facebook tends to be more complex, while on a news app there is typically only one kind of content- news articles.</li>
+          </ol>
+        <p>I considered the Blank Search Screen, and questioned why many apps used it. One possible reason was perhaps not to distract users from what they meant to search. However, if what they were going to search was presented to them in a list of trending topics, then they wouldn’t have to type in the search, thus bridging the gulf of execution. If users were going to search something, why not at least try to predict what they were going to search for? Thus, I decided to go with a list of trending topics.
+        Explorations</p>
+        <img>
+        <p>A neatly spaced sample of my exploration artboards</p>
+
+        <h3>Click-ability</h3>
+        <img class="from-medium" src="images/dailysun-clickability.png">
+        <p>My first iterations drew from the centered topic list of the apps I looked at for inspiration. Yet one critique I received was that these designs didn’t look “clickable”. I questioned what about the layout, font style, color, or spacing could render text “clickable”. This was something that I explored and strove for in future designs.</p>
+        <h3>Working with Content</h3>
+        <img class="from-medium" src="images/dailysun-content.png"
+        <p>We met with editors of The Sun to learn about how they tag and report on certain topics. For developing stories, they release update articles periodically. So I explored displaying the time last updated. However, after closer examination of the content on The Sun, I learned that they rarely have several on-going developing stories and most of their pieces are standalone. At a time, there might be 0–3 of these stories. While I decided not to include this metadata in the design, the developing stories edge case might be interesting to explore in future versions of the app.</p>
+        <h3>Negative Space</h3>
+        <img class="from-medium" src="images/dailysun-negativespace.png">
+        <p>While exploring improving click-ability, I thought about each trending topic as it’s own element or entity on the screen. Clicking each one brings the user to a different page with different articles and information. Yet they are all “trending topics”, so there must be both coherence and differentiation. I explored how to use negative space and separation to emphasize this. I also looked to iOS 11’s search display for inspiration with layout and negative space. From the three above, I decided to pursue the one on the right, as it puts more emphasis on the search bar than the other designs, while still highlighting the (click-able) trending topics.</p>
+
+        <h1>(Coming Soon)</h1>
+        <p>Navigation, Onboarding, Visual Design</p>
+
+        <p>I’m designing with Brendan Elliot on this project. Dev team led by Auston Astorga.</p>
       </div><!--end of page-body class-->
     <div> <!--end of page div-->
   </div> <!--end of viewscreen-post div-->
