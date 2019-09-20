@@ -1,0 +1,302 @@
+.viewscreen-post{
+  margin: 0 auto;
+  padding: 0;
+  bordeR: 0;
+  font-size:100%;
+}
+
+/*javascript d3 realated styling*/
+.graphLabels{
+  font-size: 16;
+  fill:#fff;
+  }
+
+.axisLabels{
+  font-size:14px;
+  fill: #898989;
+  text-anchor:middle;
+}
+
+.axisTitle{
+  font-size:20px;
+  fill: #898989;
+  text-anchor:middle;
+}
+/*Plot 1*/
+
+#plot1{
+  margin: 0px auto 40px auto;
+}
+
+.labelStyle{
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+/*Plot 2*/
+#plot2{
+  margin: 0px auto 40px auto;
+}
+
+#meanLine{
+  stroke: orange;
+  stroke-width: 1.5;
+
+}
+
+.aboveMean{
+  stroke: none;
+  fill: #fff;
+  opacity: .1;
+}
+
+/*#plot1 line {
+  stroke: #898989;
+  stroke-width: 2;
+}*/
+
+/*Plot 3*/
+#plot3 .axisLabels{
+  text-anchor: end;
+  font-size: 14px;
+  font-family: "Inconsolata";
+}
+
+#plot3 .tick{
+  font-size: 14px;
+  font-family: "Inconsolata";
+}
+
+#plot3 text{
+  fill: #898989;
+}
+#plot3{
+  margin: 0px auto 0px auto;
+}
+
+#plot3 .axisLabels{
+  font-size:14px;
+  fill: #898989;
+  text-anchor:end;
+}
+
+.autocracy {
+  fill: #C42E23;
+  stroke: none;
+}
+
+.democracy{
+  fill: #008AE5;
+  stroke: none;
+}
+
+.svg{
+  position: relative;
+  height: auto;
+}
+
+.plotAxis g, path, line{
+  stroke: #898989;
+}
+
+.graphLabelLine {
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+.barGroup{
+  padding: 0px 10px 0px 10px;
+}
+
+body{
+  margin: 0 auto;
+  font-family: "Inconsolata";
+  color: #fafafa;
+  background-color: #262a30;
+  text-align: center;
+}
+
+.body-text ol{
+  text-align: left;
+  margin-left: 30%;
+  margin-right: 20%;
+}
+
+/*Graph Specific CSS*/
+.subIndexClass{
+  padding: ;
+}
+
+.nav{
+  width: 100%;
+  background-color: #151617;
+  height: 60px;
+  margin: 0 auto;
+  opacity: .8;
+
+  align-items: center;
+  transition: background-color .2s;
+  position: fixed;
+  z-index: 1000;
+}
+
+.nav-logo{
+  float: left;
+  width: 15%;
+  margin-left: 5%;
+  display: inline-block;
+}
+
+.nav-title {
+  width: 60%;
+  text-align: center;
+  display:inline-block;
+}
+.nav-title h1{
+  font-weight: lighter;
+  font-size: 100%;
+}
+
+.nav-burger{
+  width: 15%;
+  float: right;
+  text-align: right;
+  margin-right: 5%;
+  display: inline-block;
+}
+.page{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.page-header{
+  padding-top: 0px;
+  padding-bottom: 40px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.page-header-narrow{
+/*  padding: 0 50px 60px 40px;
+*/  margin: 0 auto;
+  width: 60%;
+}
+
+.page-header-wide{
+  padding: 0 50px 60px 40px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.page-title{
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -5px;
+  font-weight: 200;
+}
+.page-subtitle{
+  margin: 60px auto 0 auto;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.page-img-bar{
+  width: 100%;
+  height: 400px;
+  margin: 30px auto;
+  display: flex;
+  background-color: #000;
+/*  background-image: url(geometricbackground.jpg);
+*/}
+
+.page-img{
+  width: 80%;
+  height: 400px;
+  margin: 30px auto;
+  display: flex;
+  background-color: #000;
+/*  background-image: url(geometricbackground.jpg);
+*/}
+
+.page-body{
+  padding: 80px 25%;
+  margin: 80px 0;
+  font-size: 20px;
+  line-height: 2;
+  background-color: #262a30;
+}
+
+.page-body svg{
+  margin: 0 auto;
+  display: block;
+}
+
+.header{
+  height: 60px;
+}
+
+.body-text{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.graph-div{
+  padding: 40px 25%;
+  margin: 40px 0;
+/*  font-size: 20px;
+  line-height: 2;*/
+  background-color: #151617;
+}
+
+.footer{
+  width: 100%;
+  background-color: #151617;
+  height: 200px;
+  color: #fff;
+  display: inline-block;
+}
+
+.footer .temp-span{
+  width: 80%;
+  margin: 0 auto;
+}
+.footer li{
+  list-style: none;
+}
+
+.credits{
+  font-size: 10px;
+}
+
+a:link {
+  color:#fff;
+}
+
+a:visited{
+  color: #fff;
+}
+
+/*subindexes table stles*/
+.subindexes{
+  text-align: left;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.subindexes table{
+  text-align: left;
+  margin: 20px 0;
+}
+
+.subindexes li{
+  margin: 0;
+}
+
+.subindexes .description{
+  color: #898989;
+  font-size: 12px;
+  width: 300px;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
