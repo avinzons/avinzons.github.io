@@ -270,7 +270,7 @@ a:hover, a:active{
 */}
 
 .emphasis-2{
-  text-transform: uppercase;
+  //text-transform: uppercase;
   font-weight: 900;
 }
 
