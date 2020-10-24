@@ -1,0 +1,12 @@
+---
+layout: post
+title:  What is Global Innovation Index?
+date:   2018-03-17
+image:  gii-banner.png
+tags:   Data Visualization
+involvement: I worked on a team of 3 developers/designers to build this data viz for the course INFO 3300 Data-Driven Web Applications
+tools: Sketch, d3.js
+challenge: We aimed to create three **static** data visualizations that communicated the relationship between political regime and a nation's capacity for innovation. 
+outcome: View the final project <a href="GII/GIIDataViz-index.html">here</a>.
+description: I worked on a team of 3 developers/designers to build this data viz for the course INFO 3300 Data-Driven Web Applications. We aimed to create three static data visualizations that communicated the relationship between political regime and a nation's capacity for innovation. 
+---
