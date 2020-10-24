@@ -2,7 +2,7 @@
 layout: post
 title:  The Cornell Daily Sun App
 subtitle: Reimagining News on Mobile
-date:   2020-10-20 
+date:   2020-10-20 16:04:00 +0300
 image:  daily-sun/header-img.png
 tags:   User-Research, UI/UX-Design, Product-Design
 

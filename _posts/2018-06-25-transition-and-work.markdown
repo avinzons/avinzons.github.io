@@ -2,7 +2,7 @@
 layout: post
 title: Visualizing transition and work
 subtitle: Diagrammatic elicitation of work-based learning knowledge maps
-date:   2018-12-04 
+date:   2018-12-04 16:04:00 +0300
 image:  transition-and-work-banner.png
 tags:   Research
 

@@ -2,7 +2,7 @@
 layout: post
 title:  ChowChums
 subtitle: social and cultural experiences with food
-date:   2018-01-09
+date:   2018-01-09 16:04:00 +0300
 image:  chowchums/banner.png
 tags:   UI/UX-Design, Product Design
 
