@@ -1,9 +1,10 @@
-baseurl: "/av" # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 url: "https://avinzons.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
 markdown: kramdown
+remote_theme: artemsheludko/zolan
 permalink: pretty
 plugins:
   - jekyll-paginate
@@ -35,4 +36,9 @@ sass:
   style: compressed
 
 #exclude pages
-exclude: [_pages/references.md]
+exclude: [_site, vendor, _pages/references.md]
+
+excerpt_separator: ""
+
+plugins:
+  - jekyll-remote-theme
