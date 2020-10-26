@@ -4,6 +4,7 @@ url: "https://avinzons.github.io" # the base hostname & protocol for your site, 
 
 # Build settings
 markdown: kramdown
+remote_theme: zolan
 permalink: pretty
 plugins:
   - jekyll-paginate
@@ -35,4 +36,4 @@ sass:
   style: compressed
 
 #exclude pages
-exclude: [_pages/references.md]
+exclude: [_site, _pages/references.md]
