@@ -4,7 +4,7 @@ title:  The Cornell Daily Sun App
 subtitle: Reimagining News on Mobile
 date:   2020-10-20 16:04:00 +0300
 image:  daily-sun/header-img.png
-tags:   [User-Research, UI-UX, Product-Design]
+tags:   ux-research ui-ux product-design
 
 client: <a href="https://cornellsun.com/">The Cornell Daily Sun</a>
 involvement: I was one of two product designers for this project, working with a team of 4-6 developers

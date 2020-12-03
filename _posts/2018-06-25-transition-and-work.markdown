@@ -4,7 +4,7 @@ title: Visualizing transition and work
 subtitle: Diagrammatic elicitation of work-based learning knowledge maps
 date:   2018-12-04 16:04:00 +0300
 image:  transition-and-work-banner.png
-tags:   Research
+tags:   ux-research
 
 client:
 involvement: I worked with two other student researchers on this project for the course <a href="https://classes.cornell.edu/browse/roster/FA18/class/INFO/6240">INFO 6240 Sensemaking</a>

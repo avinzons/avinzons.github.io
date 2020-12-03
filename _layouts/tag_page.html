@@ -8,8 +8,7 @@ layout: default
   </div>
 </div>
 
-{% for page.tag in site.tags %}
-	{% for post in page.posts %}
+{% for post in site.tags[page.tag] %}
   		{% include article-content.html %}
-	{% endfor %}
 {% endfor %}
+
