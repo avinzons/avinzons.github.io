@@ -339,6 +339,7 @@
 .ion-logo-android:before,
 .ion-logo-angular:before,
 .ion-logo-apple:before,
+.ion-logo-behance:before,
 .ion-logo-bitbucket:before,
 .ion-logo-bitcoin:before,
 .ion-logo-buffer:before,
@@ -2008,8 +2009,12 @@
   content: "\f229";
 }
 
+.ion-logo-behance:before {
+  content: "\f1b4";
+}
+
 .ion-logo-bitbucket:before {
-  content: "\f193";
+  content: "\f1b4";
 }
 
 .ion-logo-bitcoin:before {

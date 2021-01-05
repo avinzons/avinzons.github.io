@@ -6,12 +6,14 @@
         <div class="hero__content">
           <h1 class="hero__title">{{ site.data.settings.author.say-hello }}</h1>
           <p class="hero__subtitle">{{ site.data.settings.author.bio }}</p>
+          <p class="hero__subtitle">Say hello at {{ site.data.settings.author.email }}</p>
           <div class="hero__social">
-            <p class="hero__contact">Say hello at {{ site.data.settings.author.email }}</p>
+            <!--<p class="hero__social-title">Follow Me |-->
             {% if site.data.settings.contact == true %}
-            <span class="hero__social-title">Follow Me |</span>
+            <!-- <span class="hero__social-title">Follow Me |</span> -->
             {% include contact-link.html %}
             {% endif %}
+          </p>
           </div>
         </div>
       </div>

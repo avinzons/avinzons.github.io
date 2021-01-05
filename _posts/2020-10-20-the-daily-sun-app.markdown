@@ -1,16 +1,16 @@
 ---
 layout: post
 title:  The Cornell Daily Sun App
-subtitle: Reimagining News on Mobile
+subtitle: News on Mobile
 date:   2020-10-20 16:04:00 +0300
 image:  daily-sun/header-img.png
 tags:   ux-research ui-ux product-design
 
 client: <a href="https://cornellsun.com/">The Cornell Daily Sun</a>
-involvement: I was one of two product designers for this project, working with a team of 4-6 developers
+involvement: I was one of two product designers for this project.  I helped lead our user research initiatives, including recruitment, survey design, interviews, and later, testing. I worked on the information architecture and navigation of the app, as well as the notification and onboarding features. We worked with a team of 4-6 developers
 tools: Sketch, Invision, Zeplin, Abstract, Google Suite, Dropbox
 
-challenge: I aimed to design and prototype a mobile app for The Cornell Daily Sun that would engage current and new audiences. I helped lead our user research initiatives, including recruitment, survey design, interviews, and later, testing. I worked on the information architecture and navigation of the app, as well as the notification and onboarding features.
+challenge: I aimed to design and prototype a mobile app for The Cornell Daily Sun that would engage current and new audiences. 
 
 outcome: We worked with an agile team that iterated on design and development simultaneously over one and a half years. We worked closely with stakeholders at The Sun to create an app that would fit within The Sun’s brand and model, from design decisions to marketing. The iOS app is available now<a href="https://itunes.apple.com/us/app/cornell-daily-sun/id1375063933?mt=8"> on the app store!</a>
 
@@ -18,7 +18,7 @@ description:
 ---
 
 ### About The Sun
-The Cornell Daily Sun is Cornell’s oldest and only independent, student-run newspaper. It reports on events at Cornell, in Ithaca, or related to Cornellians. The goal was this project was to create an iOS app for The Cornell Daily Sun that would retain and engage current and prospective readers of The Sun. We believed a mobile application was a necessary and progressive extension of The Sun’s current print and web platforms, as it provides a much more direct access to The Sun’s news content.
+The Cornell Daily Sun is Cornell’s oldest and only independent, student-run newspaper. It reports on events at Cornell, in Ithaca, or related to Cornellians. The goal of this project was to create an iOS app for The Cornell Daily Sun that would retain and engage current and prospective readers of The Sun. We believed a mobile application was a necessary and progressive extension of The Sun’s current print and web platforms, as it provides a much more direct access to The Sun’s news content.
 
 ## Discovery Phase
 

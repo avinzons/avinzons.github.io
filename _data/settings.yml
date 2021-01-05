@@ -19,11 +19,12 @@ author:
 #-------------------------------
 # Contact links
 contact: false
-#twitter: https://twitter.com/ # Add your Twitter handle
+behance: https://behance.com/alexisvinzons # Add your behance handle
+twitter:  # Add your Twitter handle
 #facebook: https://facebook.com/ # Add your Facebook handle
 #dribbble: https://dribbble.com/ # Add your Dribbble handle
-#instagram: https://instagram.com/a.vinzons # Add your Instagram handle
-#pinterest: https://pinterest.com/ # Add your Pinterest handle
+instagram:  # Add your Instagram handle
+
 
 
 #-------------------------------
@@ -45,3 +46,9 @@ google-analytics: UA-139164903-1 # Add your identifier. For example UA-99631805-
 #-------------------------------
 # Newsletter
 mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+#--------------------------------
+exclude:
+  - 2016-09-09-DanceFest2016.md
+  - 2017-05-22-dailyui.md
+  - 2017-06-19-vectorgraphicpractice.md

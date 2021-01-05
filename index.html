@@ -7,10 +7,24 @@ layout: default
 	<div class="row">
 		<div class="col col-12">
 			{% if site.posts.size > 0 %}
-				<h4 class="lates-title">Portfolio</h4>
+				<div class="lates-title">
+					Portfolio
+					{% if site.posts.size > 0 %}
+            			<div class="article-tags__box">
+            				<span class="article__tag">tags: </span>
+              			{% for tag in site.tags %}
+              			 <a class="article__tag" href="/tag/{{ tag | first}}">{{ tag | first }}</a>
+              			{% endfor %}
+            			</div>
+          			{% else %}
+          			{% endif %}
+				</div>
 			{% endif %}
+			<!-- display all tags-->
+          </div>
 		</div>
 	</div>
+
 </div>
 
 <div class="container">
