@@ -4,7 +4,7 @@ title:  The Cornell Daily Sun App
 subtitle: News on Mobile
 date:   2020-10-20 16:04:00 +0300
 image:  daily-sun/header-img.png
-tags:   ux-research ui-ux product-design
+tags:   product-design
 
 client: <a href="https://cornellsun.com/">The Cornell Daily Sun</a>
 involvement: I was one of two product designers for this project.  I helped lead our user research initiatives, including recruitment, survey design, interviews, and later, testing. I worked on the information architecture and navigation of the app, as well as the notification and onboarding features. We worked with a team of 4-6 developers
