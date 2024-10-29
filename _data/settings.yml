@@ -23,7 +23,7 @@ behance: https://behance.com/alexisvinzons # Add your behance handle
 twitter:  # Add your Twitter handle
 #facebook: https://facebook.com/ # Add your Facebook handle
 #dribbble: https://dribbble.com/ # Add your Dribbble handle
-instagram:  # Add your Instagram handle
+instagram:  https://instagram.com/a.vinzons # Add your Instagram handle
 
 
 
@@ -34,8 +34,8 @@ disqus-identifier:  # add your shortname for Disqus Comment. For example mr-brow
 
 #-------------------------------
 # Instagram Feed
-instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
-#instagram-profile: a.vinzons # Add instagram username
+instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+instagram-profile: a.vinzons # Add instagram username
 
 
 #-------------------------------
