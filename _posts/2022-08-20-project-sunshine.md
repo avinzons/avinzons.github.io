@@ -3,7 +3,6 @@ layout: post
 title:  Project Sunshine
 subtitle: Delivering the healing power of play
 date:   2022-08-20 16:04:00 +0300
-image:  ps/header-img.png
 tags:   
 
 client: <a href="https://projectsunshine.org/">Project Sunshine</a>
