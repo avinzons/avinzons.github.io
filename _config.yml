@@ -1,4 +1,4 @@
-baseurl:  # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://avinzons.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
@@ -11,8 +11,12 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
 
+
+# BLOG CONFIGURATION
+post_navigation: true
 paginate: 5
-paginate_path: "/page/:num"
+# paginate_path: "/design/page:num/"
+# plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
 
 
 # Pages Path
@@ -36,9 +40,10 @@ sass:
   style: compressed
 
 #exclude pages
-exclude: [_site, vendor, _pages/references.md]
+exclude: [_site, vendor, _pages/references.md, design, design/design.md]
 
 excerpt_separator: ""
 
 plugins:
   - jekyll-remote-theme
+

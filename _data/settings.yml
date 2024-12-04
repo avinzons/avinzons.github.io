@@ -10,15 +10,15 @@ description: Alexis Vinzons Portfolio Website
 # Author Settings
 author:
   name: Alexis Vinzons
-  image: plusart.jpg
-  image-caption: Me at The Met 5th Ave, in front of Carousel State (1968) by Sam Gilliam.
-  say-hello: Hello, I’m <strong>Alexis</strong>
-  bio: New Yorker. Designer, among other things. Grad of Cornell University, where I studied Information Science with a concentration in UX Design, and minors in Dance and Art History. 
+  image: jj-dance2.png
+  image-caption: 
+  say-hello: hello, I’m <strong>alexis</strong> vinzons.
+  bio: dancing, designing, among other things.
   email: alexisvinzons@yahoo.com
 
 #-------------------------------
 # Contact links
-contact: false
+contact: true
 behance: https://behance.com/alexisvinzons # Add your behance handle
 twitter:  # Add your Twitter handle
 #facebook: https://facebook.com/ # Add your Facebook handle
@@ -34,7 +34,7 @@ disqus-identifier:  # add your shortname for Disqus Comment. For example mr-brow
 
 #-------------------------------
 # Instagram Feed
-instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
 instagram-profile: a.vinzons # Add instagram username
 
 
@@ -49,6 +49,8 @@ mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.
 
 #--------------------------------
 exclude:
+  - 2022-08-20-project-sunshine.md
   - 2016-09-09-DanceFest2016.md
   - 2017-05-22-dailyui.md
+  - design.md
   - 2017-06-19-vectorgraphicpractice.md

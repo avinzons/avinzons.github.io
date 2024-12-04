@@ -1,18 +1,18 @@
 [
   
     {
+      "title"    : "Project Sunshine",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/2022/08/20/project-sunshine/",
+      "date"     : "20 Aug, 2022"
+    } ,
+  
+    {
       "title"    : "The Cornell Daily Sun App",
       "category" : "",
       "tags"     : "product-design",
       "url"      : "/2020/10/20/the-daily-sun-app/",
-      "date"     : "20 Oct, 2020"
-    } ,
-  
-    {
-      "title"    : "Groupme App Concept",
-      "category" : "",
-      "tags"     : "product-design",
-      "url"      : "/ui-ux-design/2020/10/20/group-me/",
       "date"     : "20 Oct, 2020"
     } ,
   
@@ -30,14 +30,6 @@
       "tags"     : "data-visualization",
       "url"      : "/2018/03/17/gii/",
       "date"     : "17 Mar, 2018"
-    } ,
-  
-    {
-      "title"    : "ChowChums",
-      "category" : "",
-      "tags"     : "ui-ux and ux-research",
-      "url"      : "/2018/01/09/ChowChums/",
-      "date"     : "9 Jan, 2018"
     } 
   
 ]

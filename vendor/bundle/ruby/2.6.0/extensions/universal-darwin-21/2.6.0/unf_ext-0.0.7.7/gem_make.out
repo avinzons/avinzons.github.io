@@ -1,0 +1,18 @@
+current directory: /Users/avinzons/Documents/GitHub/avinzons.github.io/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20241118-1749-1bturrl.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin21/rbconfig.rb:230: warning: Insecure world writable dir /Users/avinzons in PATH, mode 040777
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/avinzons/Documents/GitHub/avinzons.github.io/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /Users/avinzons/Documents/GitHub/avinzons.github.io/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.bundle
+ld: warning: directory not found for option '-L/AppleInternal/Library/BuildRoots/bc10cbcd-3cda-11ee-b8ac-16228a05f5d2/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.7.Internal.sdk/usr/local/lib'
+
+current directory: /Users/avinzons/Documents/GitHub/avinzons.github.io/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20241118-1749-3qck1e
