@@ -1,12 +1,13 @@
 ---
-layout: post
-title:  Vector Graphic Practice
-date:   2017-06-19 16:04:00 +0300
-image:  zebra-icon.png
-tags:   visual-design
-categories: visual-design
+title: Vector Graphic Practice
+date: 2017-06-19 13:04:00 Z
 published: false
-
+categories:
+- visual-design
+tags:
+- visual-design
+layout: post
+image: zebra-icon.png
 tools: Adobe Illustrator
 challenge: Fun practice with vector graphics
 ---

@@ -1,13 +1,15 @@
 ---
-layout: post
-title:  ChowChums
-subtitle: social and cultural experiences with food
-date:   2018-01-09 16:04:00 +0300
-image:  chowchums/banner.png
-tags:   ui-ux ux-research
+title: ChowChums
+date: 2018-01-09 13:04:00 Z
 published: false
-
-involvement: I worked on a team of 5 designers to research, test, prototype, and design this app for a course, INFO 3450 Human-Computer Interaction Design
+tags:
+- ui-ux
+- ux-research
+layout: post
+subtitle: social and cultural experiences with food
+image: chowchums/banner.png
+involvement: I worked on a team of 5 designers to research, test, prototype, and design
+  this app for a course, INFO 3450 Human-Computer Interaction Design
 tools: Sketch, Paper Prototyping, Invision, Balsamiq
 ---
 

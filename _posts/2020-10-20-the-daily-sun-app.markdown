@@ -1,19 +1,25 @@
 ---
+title: The Cornell Daily Sun App
+date: 2020-10-20 13:04:00 Z
+tags:
+- product-design
 layout: post
-title:  The Cornell Daily Sun App
 subtitle: News on Mobile
-date:   2020-10-20 16:04:00 +0300
-image:  daily-sun/header-img.png
-tags:   product-design
-
+image: daily-sun/header-img.png
 client: <a href="https://cornellsun.com/">The Cornell Daily Sun</a>
-involvement: I was one of two product designers for this project.  I helped lead our user research initiatives, including recruitment, survey design, interviews, and later, testing. I worked on the information architecture and navigation of the app, as well as the notification and onboarding features. We worked with a team of 4-6 developers
+involvement: I was one of two product designers for this project.  I helped lead our
+  user research initiatives, including recruitment, survey design, interviews, and
+  later, testing. I worked on the information architecture and navigation of the app,
+  as well as the notification and onboarding features. We worked with a team of 4-6
+  developers
 tools: Sketch, Invision, Zeplin, Abstract, Google Suite, Dropbox
-
-challenge: I aimed to design and prototype a mobile app for The Cornell Daily Sun that would engage current and new audiences. 
-
-outcome: We worked with an agile team that iterated on design and development simultaneously over one and a half years. We worked closely with stakeholders at The Sun to create an app that would fit within The Sun’s brand and model, from design decisions to marketing. The iOS app is available now<a href="https://itunes.apple.com/us/app/cornell-daily-sun/id1375063933?mt=8"> on the app store!</a>
-
+challenge: I aimed to design and prototype a mobile app for The Cornell Daily Sun
+  that would engage current and new audiences.
+outcome: We worked with an agile team that iterated on design and development simultaneously
+  over one and a half years. We worked closely with stakeholders at The Sun to create
+  an app that would fit within The Sun’s brand and model, from design decisions to
+  marketing. The iOS app is available now<a href="https://itunes.apple.com/us/app/cornell-daily-sun/id1375063933?mt=8">
+  on the app store!</a>
 description: 
 ---
 

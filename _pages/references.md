@@ -1,8 +1,7 @@
 ---
-layout: page-simple
 title: References
 published: false
-
+layout: page-simple
 ---
 
 A casual list of ideas, books, quotes, articles, and art that I reference often enough to keep a list documented somewhere:

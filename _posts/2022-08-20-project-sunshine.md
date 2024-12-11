@@ -1,23 +1,20 @@
 ---
-layout: post
-title:  Project Sunshine
-subtitle: Delivering the healing power of play
-date:   2022-08-20 16:04:00 +0300
-tags:   
+title: Project Sunshine
+date: 2022-08-20 13:04:00 Z
 published: false
-
-
+layout: post
+subtitle: Delivering the healing power of play
 client: <a href="https://projectsunshine.org/">Project Sunshine</a>
-
-involvement: I served as a Digital Strategist on Project Sunshine's Marketing and Communications Team. I led a website refresh design project to update the UX and implement the new brand identity. I also create and assist with print and digital internal and external communications for events, campaigns, newsletters, partnerships, and programming. Lastly, I analyze website and Google Ad metrics on a regular basis. 
-
-tools: Figma, Hubspot, Adobe Indesign/Illustrator/Photoshop, Google Analytics, Google Ad Manager
-
-challenge: ...
-
-outcome: ...
-
-description: ...
+involvement: I served as a Digital Strategist on Project Sunshine's Marketing and
+  Communications Team. I led a website refresh design project to update the UX and
+  implement the new brand identity. I also create and assist with print and digital
+  internal and external communications for events, campaigns, newsletters, partnerships,
+  and programming. Lastly, I analyze website and Google Ad metrics on a regular basis.
+tools: Figma, Hubspot, Adobe Indesign/Illustrator/Photoshop, Google Analytics, Google
+  Ad Manager
+challenge: "..."
+outcome: "..."
+description: "..."
 ---
 
 ### About Project Sunshne

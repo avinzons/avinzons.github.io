@@ -1,14 +1,17 @@
 ---
-layout: post
 title: Visualizing transition and work
+date: 2018-12-04 13:04:00 Z
+tags:
+- ux-research
+layout: post
 subtitle: Diagrammatic elicitation of work-based learning knowledge maps
-date:   2018-12-04 16:04:00 +0300
-image:  transition-and-work-banner.png
-tags:   ux-research
-
-client:
-involvement: I worked with two other student researchers on this project for the course <a href="https://classes.cornell.edu/browse/roster/FA18/class/INFO/6240">INFO 6240 Sensemaking</a>
-tools: Participatory Design, Interviews, Diagrammatic Elicitation, Qualitative Interview Coding
+image: transition-and-work-banner.png
+client: 
+involvement: I worked with two other student researchers on this project for the course
+  <a href="https://classes.cornell.edu/browse/roster/FA18/class/INFO/6240">INFO 6240
+  Sensemaking</a>
+tools: Participatory Design, Interviews, Diagrammatic Elicitation, Qualitative Interview
+  Coding
 ---
 
 Below is the front matter of our final paper; full paper

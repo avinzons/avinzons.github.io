@@ -1,49 +1,38 @@
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://avinzons.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
-
-# Build settings
+---
+title: Avinzons.Github.Io
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: _pages
+  values:
+    permalink: "/:basename:output_ext"
+baseurl: ''
+url: https://avinzons.github.io
 markdown: kramdown
 remote_theme: artemsheludko/zolan
 permalink: pretty
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll/tagging
-
-
-# BLOG CONFIGURATION
+- jekyll-remote-theme
 post_navigation: true
 paginate: 5
-# paginate_path: "/design/page:num/"
-# plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
-
-
-# Pages Path
-defaults:
-  - scope:
-      path: '_pages'
-    values:
-      permalink: /:basename:output_ext
-
 include:
-  - _pages
-
-
-# Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
-
+- _pages
+tag_page_dir: tag
+tag_page_layout: tag_page
+tag_permalink_style: pretty
 sass:
   sass_dir: _sass
   style: compressed
-
-#exclude pages
-exclude: [_site, vendor, _pages/references.md," _pages/references.md"]
-
-excerpt_separator: ""
-
-plugins:
-  - jekyll-remote-theme
-
+exclude:
+- _site
+- vendor
+- _pages/references.md
+- " _pages/references.md"
+excerpt_separator: ''
