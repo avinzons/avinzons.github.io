@@ -16,7 +16,7 @@ _photography by Uila Marx_
 Facilitated and crafted by [Troy Ogilvie](https://troyogilvie.squarespace.com/) and [Omar Zubair](https://soundcloud.com/omar-zubair) and built from the teachings of adrienne maree brown [(author of Emergent Strategy)](https://adriennemareebrown.net/book/emergent-strategy/), Emergent Improvisation uses dance, sound, and environment to facilitate a deep sense of listening, creating an ecosystem of community care. Building on the concepts of iteration, fractals, and expanding possibilities, we engage in the act of futuring and world-building within the context of dance improvisation.
 
 Hosting on a rotating schedule with Troy Ogilvie, Uila Marx, and Omar Zubair- Come dance with us!
-Mondays at 11:30am at [Peridance](https://www.peridance.com/open-classes) and 4:00pm at [Gibney](https://gibneydance.org/class-schedule/)
+New time 2025- Fridays at 11:30am at [Peridance](https://www.peridance.com/open-classes) and 4:00pm at [Gibney](https://gibneydance.org/class-schedule/)
 
 ![]({{site.baseurl}}/images/dance/ei-gif-header-img.gif)
 _photography by Owen Burnham_
