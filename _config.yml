@@ -20,6 +20,7 @@ remote_theme: artemsheludko/zolan
 permalink: pretty
 plugins:
 - jekyll-remote-theme
+- jekyll-paginate
 post_navigation: true
 paginate: 5
 include:
