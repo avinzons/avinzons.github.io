@@ -13,7 +13,7 @@ author:
   image: jj-dance2.png
   image-caption: 
   say-hello: hello, I’m <strong>alexis</strong> vinzons.
-  bio: dancing, designing, among other things.
+  bio: dancing, designing, among other things. Site under construction.
   email: alexisvinzons@yahoo.com
 
 #-------------------------------
@@ -49,6 +49,12 @@ mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.
 
 #--------------------------------
 exclude:
-  - 2016-09-09-DanceFest2016.md
-  - 2017-05-22-dailyui.md
-  - 2017-06-19-vectorgraphicpractice.md
+- 2017-06-19-vectorgraphicpractice.md
+- 2017-09-16-DanceFest2016.md
+- 2018-01-09-ChowChums.markdown
+- 2018-03-17-gii.markdown
+- 2018-12-04-transition-and-work.markdown
+- 2020-10-20-group-me.md
+- 2020-10-20-the-daily-sun-app.markdown
+- 2022-08-20-project-sunshine.md
+- 2025-01-01-ei.md
