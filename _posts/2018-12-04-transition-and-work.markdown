@@ -1,6 +1,7 @@
 ---
 title: Visualizing transition and work
 date: 2018-12-04 13:04:00 Z
+published: false
 tags:
 - ux-research
 layout: post
