@@ -1,7 +1,6 @@
 ---
 title: The Cornell Daily Sun App
 date: 2020-10-20 13:04:00 Z
-published: true
 tags:
 - product-design
 layout: post

@@ -1,7 +1,6 @@
 ---
 title: Project Sunshine
 date: 2022-08-20 13:04:00 Z
-published: true
 layout: post
 subtitle: Delivering the healing power of play
 image: ps/ps_header.gif
