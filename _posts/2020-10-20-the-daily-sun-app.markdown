@@ -1,9 +1,9 @@
 ---
 title: The Cornell Daily Sun App
 date: 2020-10-20 13:04:00 Z
-published: false
+published: true
 tags:
-- product-design
+- design
 layout: post
 subtitle: News on Mobile
 image: daily-sun/header-img.png

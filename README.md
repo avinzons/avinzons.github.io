@@ -115,8 +115,8 @@ Second, open the `js/common.js` file and replace the `userId` and `accessToken` 
           get: 'user',
           limit: 6,
           resolution: 'standard_resolution',
-          userId: '8987997106',
-          accessToken: '8987997106.924f677.8555ecbd52584f41b9b22ec1a16dafb9',
+          userId: '',
+          accessToken: '',
           template: ''
     });
 

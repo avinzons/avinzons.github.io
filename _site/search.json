@@ -1,41 +1,33 @@
 [
   
     {
-      "title"    : "Emergent Improvisation",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/2025/01/01/ei/",
-      "date"     : "1 Jan, 2025"
-    } ,
-  
-    {
       "title"    : "Project Sunshine",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "design",
       "url"      : "/2022/08/20/project-sunshine/",
       "date"     : "20 Aug, 2022"
     } ,
   
     {
+      "title"    : "Emergent Improvisation",
+      "category" : "",
+      "tags"     : "design",
+      "url"      : "/2021/01/01/ei/",
+      "date"     : "1 Jan, 2021"
+    } ,
+  
+    {
       "title"    : "The Cornell Daily Sun App",
       "category" : "",
-      "tags"     : "product-design",
+      "tags"     : "design",
       "url"      : "/2020/10/20/the-daily-sun-app/",
       "date"     : "20 Oct, 2020"
     } ,
   
     {
-      "title"    : "Visualizing transition and work",
-      "category" : "",
-      "tags"     : "ux-research",
-      "url"      : "/2018/12/04/transition-and-work/",
-      "date"     : "4 Dec, 2018"
-    } ,
-  
-    {
       "title"    : "What is Global Innovation Index?",
       "category" : "",
-      "tags"     : "data-visualization",
+      "tags"     : "design",
       "url"      : "/2018/03/17/gii/",
       "date"     : "17 Mar, 2018"
     } 

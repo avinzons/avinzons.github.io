@@ -1,9 +1,9 @@
 ---
 title: What is Global Innovation Index?
 date: 2018-03-17 13:04:00 Z
-published: false
+published: true
 tags:
-- data-visualization
+- design
 layout: post
 image: gii-banner.png
 involvement: I worked on a team of 3 developers/designers to build this data viz for

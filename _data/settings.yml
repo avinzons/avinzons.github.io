@@ -13,7 +13,7 @@ author:
   image: jj-dance2.png
   image-caption: 
   say-hello: hello, I’m <strong>alexis</strong> vinzons.
-  bio: dancing, designing, among other things. Site under construction.
+  bio: dancing, designing, among other things. 
   email: alexisvinzons@yahoo.com
 
 #-------------------------------
@@ -21,8 +21,8 @@ author:
 contact: true
 behance:  # Add your behance handle
 twitter:  # Add your Twitter handle
-#facebook: https://facebook.com/ # Add your Facebook handle
-#dribbble: https://dribbble.com/ # Add your Dribbble handle
+facebook: # https://facebook.com/ # Add your Facebook handle
+dribbble: # https://dribbble.com/ # Add your Dribbble handle
 instagram:  https://instagram.com/a.vinzons # Add your Instagram handle
 
 
@@ -34,13 +34,13 @@ disqus-identifier:  # add your shortname for Disqus Comment. For example mr-brow
 
 #-------------------------------
 # Instagram Feed
-instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
-instagram-profile: a.vinzons # Add instagram username
+instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+instagram-profile: https://instagram.com/a.vinzons # Add instagram username
 
 
 #-------------------------------
 # Google Analytics
-google-analytics: UA-139164903-1 # Add your identifier. For example UA-99631805-1.
+google-analytics: G-0DXBXPWHKN
 
 
 #-------------------------------
