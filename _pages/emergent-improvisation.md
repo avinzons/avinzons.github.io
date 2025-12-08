@@ -3,6 +3,7 @@ title: Emergent Improvisation
 permalink: "/emergent-improvisation/"
 layout: page-simple
 ---
+
 ![]({{site.baseurl}}/images/dance/ei-gif-header-img.gif)
 _photography by Owen Burnham_
 
