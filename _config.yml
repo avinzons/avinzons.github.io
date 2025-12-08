@@ -34,6 +34,4 @@ sass:
 exclude:
 - _site
 - vendor
-- _pages/references.md
-- " _pages/references.md"
 excerpt_separator: ''
