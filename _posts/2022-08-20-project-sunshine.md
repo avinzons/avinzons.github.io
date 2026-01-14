@@ -1,10 +1,10 @@
 ---
-title: Project Sunshine
+title: Healing Through Play
 date: 2022-08-20 13:04:00 Z
 tags:
 - design
 layout: post
-subtitle: Delivering the healing power of play
+subtitle: Project Sunshine
 image: ps/ps_header.gif
 client: <a href="https://projectsunshine.org/">Project Sunshine</a>
 involvement: I served as a Digital Strategist on Project Sunshine's Marketing and

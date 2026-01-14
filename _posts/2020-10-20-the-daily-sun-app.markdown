@@ -1,10 +1,10 @@
 ---
-title: The Cornell Daily Sun App
+title: Student News on Mobile 
 date: 2020-10-20 13:04:00 Z
 tags:
 - design
 layout: post
-subtitle: News on Mobile
+subtitle: The Cornell Daily Sun App
 image: daily-sun/header-img.png
 client: <a href="https://cornellsun.com/">The Cornell Daily Sun</a>
 involvement: I was one of two product designers for this project.  I helped lead our

@@ -1,7 +1,15 @@
 [
   
     {
-      "title"    : "Project Sunshine",
+      "title"    : "The Stranger",
+      "category" : "",
+      "tags"     : "performance",
+      "url"      : "/2024/06/09/the-stranger/",
+      "date"     : "9 Jun, 2024"
+    } ,
+  
+    {
+      "title"    : "Healing Through Play",
       "category" : "",
       "tags"     : "design",
       "url"      : "/2022/08/20/project-sunshine/",
@@ -17,7 +25,7 @@
     } ,
   
     {
-      "title"    : "The Cornell Daily Sun App",
+      "title"    : "Student News on Mobile",
       "category" : "",
       "tags"     : "design",
       "url"      : "/2020/10/20/the-daily-sun-app/",

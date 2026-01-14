@@ -8,5 +8,3 @@ Alexis Vinzons is a Brooklyn-based freelance dance artist from Mamaroneck, NY. H
 
 ![]({{site.baseurl}}/images/dance/dance-header-img.png)
 _photography by Uila Marx_
-
-# Select Performances
