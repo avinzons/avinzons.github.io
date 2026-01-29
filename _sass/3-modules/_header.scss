@@ -99,7 +99,7 @@
     height: 100vh;
     padding: 40px 30px 30px;
     transition: right 0.5s cubic-bezier(0.7, 0.4, 0, 1);
-    background: $white;
+    background: $dark;
     &.is-open {
       right: 0;
     }
