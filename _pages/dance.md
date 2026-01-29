@@ -1,10 +1,14 @@
 ---
 title: Dance
 permalink: "/dance/"
-layout: page-simple
+layout: tag_page
+tag: choreography
+description: "My practice as a dance artist investigates the movement of the body as it unfolds in time, honoring its physical capabilities while attending to memory and lineage. Working through the lived experience of my own body, I approach dance as an ancient and ongoing practice—one that connects individual presence to collective histories, while also allowing space for erosion and renewal. Making work within an oppressed world and an obsessed body, I understand expression as both survival and resistance.<br><br>
+	Improvisation is central to my work, functioning as both a methodology and a philosophical framework. My research asks what is the smallest container I can define that still allows improvisation to unfold in a performance setting? This question guides my exploration of agency and restraint within constrained systems. <br><br>
+	My movement research focuses on four areas: an anatomical approach grounded in the logic of the skeleton; the internal tempo of the human body; the multiplicity of texture, the simultaneous embodiment of contrasting states; and dance as a healing, centering honesty, and care. The worlds I create are tender, haunting, and reminiscent. I approach dance as fluid, existing between formal technique and quotidian gesture. Unison functions as a ritual practice, gathering performers into a shared experience— willingly or unwillingly, consciously or unconsciously. Through duration, intrigue, and boredom, I seek to reveal the unobtrusive beauty of being human: to feel lost or in love, to experience sadness and wonder, to encounter betrayal, and to persist in the desire to survive.<br><br>
+	For my performers, I create work with clear narrative intention, where every movement, interaction, entrance, and exit is grounded in choice. I prioritize texture and the articulation of extremities—fingers, toes, and gaze—as sites of expression. For audiences, the work invites sustained attention and curiosity, using clarity and duration to encourage reflection on relationships, motivations, and states of being as they unfold."
+
 ---
 
-Alexis Vinzons is a Brooklyn-based freelance dance artist from Mamaroneck, NY. Her artistic practice is rooted in improvisation as both a methodology and philosophy, taking an anatomical approach that treats the body as the primary site of exploration and using honesty, spontaneity, and care as essential lenses for engaging with dance. She is a facilitator of Emergent Improvisation, a practice crafted by Troy Ogilvie and Omar Zubair, held regularly at Gibney Dance Center and Peridance Center. As a performer, she has collaborated with Yang Sun & Poets, TAQ Dance, Emergent Improvisation, and others. She holds a B.A. from Cornell University, where she studied Information Science, Art History, and Dance.
 
-![]({{site.baseurl}}/images/dance/dance-header-img.png)
-_photography by Uila Marx_
+

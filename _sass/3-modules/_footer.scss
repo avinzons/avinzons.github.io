@@ -1,9 +1,9 @@
 .footer {
   position: relative;
-  padding: 80px 0 40px;
+  padding: 40px 0 40px;
   text-align: center;
-  border-top: 1px solid $light-gray;
-  background: #f5f5f5;
+  background: $black;
+  font-color: $gray;
 
   .contact {
     margin-bottom: 15px;
@@ -11,7 +11,7 @@
 
   .copyright {
     a {
-      color: $dark;
+      color: $light-gray;
       &:hover {
         color: $brand-color;
       }
@@ -19,6 +19,6 @@
   }
 
   @media only screen and (max-width: $mobile) {
-    padding: 40px 0 20px;
+    padding: 20px 0 20px;
   }
 }

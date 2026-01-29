@@ -24,6 +24,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-image: url("../images/grain-background.png");
     background-color: $light-gray;
     &:after {
       content: "";
