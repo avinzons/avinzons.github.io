@@ -40,12 +40,7 @@ instagram-profile: https://instagram.com/a.vinzons # Add instagram username
 
 #-------------------------------
 # Google Analytics
-<<<<<<< Updated upstream
-google-analytics: G-0DXBXPWHKN
-=======
 google-analytics: G-0DXBXPWHKN # Add your identifier. For example UA-99631805-1.
->>>>>>> Stashed changes
-
 
 #-------------------------------
 # Newsletter
