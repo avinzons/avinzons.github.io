@@ -3,26 +3,27 @@
 title: Alexis Vinzons
 header-title: a.v.
 logo: #logo.svg # You can add own logo.
-description: Alexis Vinzons Portfolio Website
+description: Alexis Vinzons Website
 
 
 #-------------------------------
 # Author Settings
 author:
   name: Alexis Vinzons
-  image: jj-dance2.png
-  image-caption: 
-  say-hello: hello, I’m <strong>alexis</strong> vinzons.
-  bio: dancing, designing, among other things.
+  image: profile-pics/raven-1-crop.jpg
+  image-caption: photography by Raven Khau
+  say-hello: Hello, I'm <strong>Alexis</strong> Vinzons.
+  bio: I'm a NYC-based freelance dance artist from Mamaroneck, NY. My artistic practice is rooted in improvisation as both a methodology and philosophy, taking an anatomical approach that treats the body as the primary site of exploration and using honesty, spontaneity, and care as essential lenses for engaging with dance. I have the great priviledge of facilitating Emergent Improvisation, a practice crafted by Troy Ogilvie and Omar Zubair, held regularly at Gibney Dance Center and Peridance Center. As a performer, I have am very honored to have collaborated with Lea Ved (b12), Yang Sun & Poets, TAQ Dance (Sasha Marlan-Librett), Sumayyah Smith, Louise Coleman, Chisato Fuji, Audrey Chou, Processions Performance Lab (Natalia Fernandez), Emergent Improvisation, and others. I graduated with a B.A. in Information Science from Cornell University.
+  bio2: I'm a NYC-based freelance digital designer. I've worked with early-stage startups, non-profit organizations, and creative individuals and entrepreneurs on projects such as marketing collateral, website redesigns, UX revamps, feature implementations, and more. I graduated with a B.A. in Information Science from Cornell University.
   email: alexisvinzons@yahoo.com
 
 #-------------------------------
 # Contact links
 contact: true
-behance: https://behance.com/alexisvinzons # Add your behance handle
+behance:  # Add your behance handle
 twitter:  # Add your Twitter handle
-#facebook: https://facebook.com/ # Add your Facebook handle
-#dribbble: https://dribbble.com/ # Add your Dribbble handle
+facebook: # https://facebook.com/ # Add your Facebook handle
+dribbble: # https://dribbble.com/ # Add your Dribbble handle
 instagram:  https://instagram.com/a.vinzons # Add your Instagram handle
 
 
@@ -34,14 +35,13 @@ disqus-identifier:  # add your shortname for Disqus Comment. For example mr-brow
 
 #-------------------------------
 # Instagram Feed
-instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
-instagram-profile: a.vinzons # Add instagram username
+instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+instagram-profile: https://instagram.com/a.vinzons # Add instagram username
 
 
 #-------------------------------
 # Google Analytics
-google-analytics: UA-139164903-1 # Add your identifier. For example UA-99631805-1.
-
+google-analytics: G-0DXBXPWHKN # Add your identifier. For example UA-99631805-1.
 
 #-------------------------------
 # Newsletter
@@ -49,6 +49,12 @@ mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.
 
 #--------------------------------
 exclude:
-  - 2016-09-09-DanceFest2016.md
-  - 2017-05-22-dailyui.md
-  - 2017-06-19-vectorgraphicpractice.md
+- 2017-06-19-vectorgraphicpractice.md
+- 2017-09-16-DanceFest2016.md
+- 2018-01-09-ChowChums.markdown
+- 2018-03-17-gii.markdown
+- 2018-12-04-transition-and-work.markdown
+- 2020-10-20-group-me.md
+- 2020-10-20-the-daily-sun-app.markdown
+- 2022-08-20-project-sunshine.md
+- 2025-01-01-ei.md

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+  {% if site.data.settings.google-analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+
+  <!-- begin content -->
+  <div class="container">
+      <div class="row">
+            <!-- begin page -->
+            <article class="page col col-8 col-t-10 col-m-12">
+                  <div class="page__content">
+          <h1 class="hero__title">{{ site.data.settings.author.say-hello }}</h1>
+          <p class="hero__subtitle">{{ site.data.settings.author.bio2) }}</p>
+          <p class="hero__subtitle">Reach me at {{ site.data.settings.author.email }}</p>  {% for post in site.tags[page.tag] %}
+      {% include article-content.html %}
+  {% endfor %}
+                  </div>
+            </article>
+            <!-- end page -->
+      </div>
+</div>
+  <!-- end content -->
+
+  <div class="top ion ion-ios-arrow-up" title="Top"></div>
+
+  {% include search.html %}
+
+  {% include footer.html %}
+
+  {% include javascripts.html %}
+</body>
+
+</html>

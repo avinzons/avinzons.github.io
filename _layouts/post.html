@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="container">
   <div class="post-title-box">
     <div class="row">
@@ -44,7 +45,9 @@ layout: default
     <article class="post {{ no-image }} col col-8 col-t-10 col-m-12">
 
       <div class="post__content">
+        {% if post.client %}
         {% include hero-post-summary.html %}
+        {% endif %}
         {{ content }}
       </div>
       <!--
@@ -80,7 +83,7 @@ layout: default
     </div>
   </div>
 
-  <div class="container">
+  <!--<div class="container">
   <div class="post__navigation">
     {% if page.previous.url %}
     <div class="prev">
@@ -102,7 +105,7 @@ layout: default
     {% if page.next.url %}
     <div class="next">
       <a class="post__nav__image" href="{{ site.baseurl }}{{page.next.url}}" style="background-image: url({{site.baseurl}}/images/{{page.next.image}})">
-      </a>-->
+      </a>
       <h2 class="post__nav__title">
         <a href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a>
         <i class="ion ion-md-arrow-forward"></i>
@@ -120,3 +123,4 @@ layout: default
 
   {% if site.data.settings.disqus-identifier %} {% include disqus-comments.html %} {% endif %}
   </div>
+  -->
